@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "principle",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rate",
+						"type": "uint256"
+					}
+				],
+				"name": "CalculateInterest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "investment",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "returnAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "CalculateROI",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/investCalculator.sol": "InvestmentCalculator"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/investCalculator.sol": {
+			"keccak256": "0x083dcaf3749232b34a09326d8f25071d4f03b6f7f87ceff9242399dd7f7932d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://388484522f47d68215cecb758d8ae36ab023176403da098a0fe41f1813c8ef8c",
+				"dweb:/ipfs/QmYTQFCz1qWJGeirvGDEueck36kNzh4B58N9wwDpsLw1mk"
+			]
+		}
+	},
+	"version": 1
+}
