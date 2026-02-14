@@ -16,9 +16,10 @@ contract DataType{
     //address
     address  public MyAddress  =0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
 
-    function UpdateValues(uint newNum,int newTemp)public {
+    function updateValues(uint newNum,int newTemp,string memory newName)public {
         num2 = newNum;
         temperature = newTemp;
+        MyName = newName;
 
     }
     
