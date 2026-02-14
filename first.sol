@@ -10,5 +10,19 @@ contract SimpleStorage {
 return num;
 
    }
+
    
 }   
+contract StudentName{
+      string public studentName;
+      int public age;
+      string public courseName;
+      bool public isEnrolled;
+      function setProfile(string memory _studentName, int _age, string memory _courseName) public{
+          studentName = _studentName;
+           age = _age;
+           courseName = _courseName;
+           isEnrolled = true;
+      }
+   }
+   

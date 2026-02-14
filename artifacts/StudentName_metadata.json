@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "MyAdress",
+				"name": "age",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "int256",
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "getnum",
+				"name": "courseName",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -33,20 +33,43 @@
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "isEnrolled",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "_age",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_courseName",
+						"type": "string"
+					}
+				],
+				"name": "setProfile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "welcome",
+				"name": "studentName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -71,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"first.sol": "SimpleStorage"
+			"first.sol": "StudentName"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
