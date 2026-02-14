@@ -7,6 +7,32 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "MyAdress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getnum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "num",
 				"outputs": [
 					{
@@ -60,11 +86,11 @@
 	},
 	"sources": {
 		"first.sol": {
-			"keccak256": "0x2c93c2b78faf15c48b97e46e3d434987106f9536e5b903f0e91068124bd78eed",
+			"keccak256": "0x2bafbb87b4994eaaff0d2c216e872912c6e76342ba22d80dc1b377784175097c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc2b2439de1eb9225fe59bc09cf9eb5b4889b916c787b14e0c1060c5826d1e23",
-				"dweb:/ipfs/QmPoYAYpnYD2xxmTLEFnD1mnHgiL4JxMsmNhsLoozqfdHP"
+				"bzz-raw://08358672e7bbc86ab46ea74d319ec6be053baa56fad7e191200de936350118e6",
+				"dweb:/ipfs/QmaPTAiE2T21AoSimufWSvSRiHQUh9AbH4btEZZ73na44V"
 			]
 		}
 	},
